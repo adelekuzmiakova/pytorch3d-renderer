@@ -87,8 +87,7 @@ def get_mesh(obj_filename, device):
 
 def get_renderer(image_size, dist, device, elev, azim):
     """
-    Generates Meshes object and initializes the mesh with vertices, faces,
-    and textures.
+    Generates a mesh renderer by combining a rasterizer and a shader.
 
     Args:
         image_size: int, the size of the rendered .png image
@@ -125,8 +124,8 @@ def get_renderer(image_size, dist, device, elev, azim):
 
 def render_image(renderer, mesh, obj_filename, azim, elev):
     """
-    Generates Meshes object and initializes the mesh with vertices, faces,
-    and textures.
+    Renders an image using MeshRenderer class and Meshes object. Saves the
+    rendered image as a .png file.
 
     Args:
         image_size: int, the size of the rendered .png image
@@ -156,8 +155,7 @@ def render_image(renderer, mesh, obj_filename, azim, elev):
 
 def compile_all_steps(image_size, dist, device, elev, azim, obj_filename):
     """
-    Renders an image using MeshRenderer class and Meshes object. Saves the
-    rendered image as a .png file
+    Combines the above steps.
 
     Args:
         image_size: int, the size of the rendered .png image
