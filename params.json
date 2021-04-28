@@ -1,0 +1,7 @@
+{
+"image_size": 256,
+"camera_dist": 3,   
+"elevation": [0, 6],
+"azim_angle": [270, 355, 360],
+"obj_filename": "data/cow_mesh/cow.obj"
+}
