@@ -1,0 +1,7 @@
+{
+"image_size": 256,
+"camera_dist": 3,   
+"elevation": 0,
+"azim_angle": 0,
+"obj_filename": "data/capsule/capsule.obj"
+}
