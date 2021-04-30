@@ -2,7 +2,7 @@
 
 [Click here](https://adelekuzmiakova.medium.com/how-to-render-3d-files-using-pytorch3d-ef9de72483f8?source=friends_link&sk=d89816e7e6f338dfc68da836757e149d) for the Medium walkthrough on how to render `.obj` meshes from various viewpoints to create 2D images.
 
-![Alt text](assets/medium_3.png?raw=true "Title")
+![Alt text](assets/medium_4.png?raw=true "Title")
 
 ## Setup your environment
 
@@ -27,7 +27,7 @@ The actual code is written in `render.py`:
 python -m render
 ```
 
-This takes a 3D `.obj` file and renders it to create 2D images from multiple viewpoints based on parameters specified in `params.json`.  These parameters include:
+This takes a 3D `.obj` file and renders it to create 2D images from multiple viewpoints based on parameters specified in `params.json`.  The resulting images are then saved in `out/` directory. The `.json` parameters include:
 
 ```json
 {
@@ -42,6 +42,6 @@ This takes a 3D `.obj` file and renders it to create 2D images from multiple vie
 `camera_dist` refers to the distance between the camera and the object.\
 `elevation` is a **list** of elevation values and basically tell us from how high we are looking at the object. **Elevation refers to the angle between the vector from the object to the camera and the horizontal plane y=0 (plane xz).**\
 `azim_angle` is a **list** of azimuth angle values and basically tell us from which side (e.g. left size, right side, front view, back view, etc.) we are looking at the object. What's azimuth angle? **Let's say you have a vector from the object to the camera and you project it onto a horizontal plane y=0. The azimuth angle is then the angle between the projected vector and a reference vector at (0,0,1) on the reference plane (horizontal plane).** [Click here](https://www.celestis.com/resources/faq/what-are-the-azimuth-and-elevation-of-a-satellite/) for another picture.\
-`obj_filename` is a path to the obj file you want to render.
+`obj_filename` is a path to the `.obj` file you want to render.
 
 
