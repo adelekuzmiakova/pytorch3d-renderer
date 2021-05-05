@@ -1,7 +1,7 @@
 {
-"image_size": 256,
-"camera_dist": 3,   
+"image_size": 1024,
+"camera_dist": 10,   
 "elevation": [0, 90, 180],
 "azim_angle": [0, 60, 90, 180, 270],
-"obj_filename": "data/capsule/capsule.obj"
+"obj_filename": "data/1xddh4yex6yo-rooster/rooster_1.0.1.obj"
 }
