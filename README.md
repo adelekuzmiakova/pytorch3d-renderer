@@ -81,6 +81,13 @@ Rendered results (also stored in `out` directory):
 
 [Data source](https://free3d.com/3d-model/low-poly-rooster-31363.html)
 
+**IMPORTANT:** Pre-process the mesh to make sure that 1 of the 3 coordinates (x, y, or z) is a constant. In this case, `process_rooster_mesh.py` sets the z-coordinate to 0. 
+
+```bash
+python -m process_rooster_mesh
+```
+
+
 `.json` parameters:
 
 ```json
@@ -89,7 +96,7 @@ Rendered results (also stored in `out` directory):
 "camera_dist": 10,   
 "elevation": [0, 90, 180],
 "azim_angle": [0, 60, 90, 180, 270],
-"obj_filename": "data/1xddh4yex6yo-rooster/rooster_1.0.1.obj"
+"obj_filename": "data/rooster/rooster_1.0.1.obj"
 }
 ```
 Blender visualization:
