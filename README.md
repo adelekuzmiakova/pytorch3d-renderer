@@ -1,6 +1,6 @@
 ## Medium article
 
-[Checkout](https://adelekuzmiakova.medium.com/how-to-render-3d-files-using-pytorch3d-ef9de72483f8?source=friends_link&sk=d89816e7e6f338dfc68da836757e149d) the Medium walkthrough on how to render 3D `.obj` meshes from various viewpoints to create 2D images.
+[Checkout](https://adelekuzmiakova.medium.com/how-to-render-3d-files-using-pytorch3d-ef9de72483f8?source=friends_link&sk=d89816e7e6f338dfc68da836757e149d) the Medium walkthrough 👋 on how to render 3D `.obj` meshes from various viewpoints to create 2D images.
 
 ![Alt text](assets/medium.png?raw=true "Title")
 
